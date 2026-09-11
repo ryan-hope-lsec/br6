@@ -1,0 +1,191 @@
+# Breakfast
+Title: Breakfast Menu 🍊
+Hours: 8AM — 11:30AM · MONDAY — FRIDAY
+Intro: Available to enjoy at our tables or to Grab & Go.
+
+- BR6 Style Muesli | £4.50
+Description: Plant-based yoghurt, berry compote and honey.
+Allergens: Nuts, Gluten, Sulphites, Soya
+Tags: Vegan
+
+- Belgian-Style Waffles with Maple Syrup & Maple Butter | £2.90
+Description: Served with maple syrup and maple butter.
+Add-on: Add bacon and eggs | +£TBC
+Allergens: Egg, Milk, Gluten, Soya
+
+- Freshly Prepared Pancakes | £3.25
+Description: Three pancakes per stack, served with maple syrup and maple butter.
+Add-on: Add bacon and eggs | +£TBC
+Allergens: Egg, Milk, Gluten
+
+- Full English Breakfast | £9.10
+Description: Egg cooked to your liking, bacon, sausage, tomato, mushroom, hash brown, beans and toast.
+Allergens: Egg, Gluten, Milk, Soya
+
+- Full Vegan Breakfast | £9.10
+Description: Tofu sausage, mushroom, tomato, hash brown, beans and toast.
+Allergens: Soya, Gluten
+Tags: Vegan
+
+- Classic Eggs on Toast | £4.50
+Description: Eggs cooked to your liking.
+Allergens: Egg, Gluten, Sulphites, Milk, Soya
+
+- Tofu or Mushroom on Toast
+Option: Tofu | £4.50
+Option: Mushroom | £4.10
+Allergens: Soya, Gluten
+Tags: Vegan
+
+- Smashed Avocado on Toast | £4.50
+Allergens: Soya, Gluten
+Tags: Vegan
+
+- Beans on Toast | £3.90
+Allergens: Soya, Gluten
+
+- Toast or Croissant with Butter & Jam | £2.50
+Allergens: Soya, Gluten, Milk
+Tags: Organic
+
+- Viennoiseries | £1.90
+Allergens: Gluten, Milk, Nuts, Peanuts, Egg, Soya
+
+- Toasted English Muffin with Grilled Cheese | £2.20
+Description: Add your choice of filling.
+Add-on: Tofu | +£1.00
+Add-on: Eggs | +£1.00
+Add-on: Tomato | +£1.00
+Add-on: Grilled sausage or bacon | +£1.50
+Allergens: Soya, Gluten, Milk
+Tags: Organic
+
+- Sausage or Bacon Sandwich | £4.50
+Allergens: Gluten, Soya, Sulphites
+
+
+# Lunch
+Title: Bakehouse Summer Menu
+Hours: 11:30AM — 3PM · MONDAY — FRIDAY
+Intro: Available to enjoy at our tables or to Grab & Go.
+
+## Bakery
+A selection of freshly made breads, scones, cakes, pastries and patisseries. Served from 8am.
+
+## Sandwiches
+All served with tortilla chips and a freshly dressed salad.
+
+- Cheese & Tomato or Cheese & Onion | £3.50
+Allergens: Sulphites, Mustard, Gluten, Milk, Soya
+Tags: Organic
+
+- Chickpea, Avocado, Roasted Vegetables & Vegan Slaw | £4.50
+Allergens: Sulphites, Gluten, Soya
+Tags: Vegan
+
+- Hot Home-Smoked Salmon, Cream Cheese & Lemon Confit | £5.50
+Allergens: Gluten, Milk, Soya, Fish
+
+- BR6 Club Sandwich | £5.90
+Description: Grilled chicken, crispy bacon, gem lettuce, tomatoes, caramelised onion, slaw and mayo.
+Allergens: Sulphites, Mustard, Gluten, Soya
+
+- BR6 BLT Sandwich | £5.90
+Description: Crispy bacon, gem lettuce and tomatoes.
+Allergens: Gluten, Soya, Sulphites
+
+- BR6 Vegan Club | £5.90
+Description: Grilled vegetables, avocado, chickpeas, tomatoes, gem lettuce, slaw, vegan mayo and vegan cheese.
+Allergens: Soya, Gluten
+Tags: Vegan
+
+- Ham & Cheese Toasted Sandwich | £4.90
+Allergens: Gluten, Soya, Milk
+
+- Roasted Striploin Steak Baguette | £8.50
+Description: Caramelised onion and horseradish cream.
+Allergens: Gluten, Soya, Mustard, Sulphites, Milk, Egg
+
+- Bakehouse Sausage or Bacon Sandwich | £4.50
+Allergens: Gluten, Soya, Mustard, Sulphites
+
+## Speciality Breads & Wraps
+All served with crisps and a freshly dressed salad.
+
+- Italian Flatbread | £4.50
+Description: Sun-dried tomatoes, mozzarella and pesto.
+Allergens: Gluten, Milk, Mustard, Sulphites
+
+- Chicken & Chorizo Panini | £5.90
+Description: With roasted peppers.
+Allergens: Sulphites, Mustard, Gluten, Milk, Soya
+
+- Sweet Chilli Southern Fried Chicken Wrap | £4.90
+Description: Red onion, gem lettuce and cucumber.
+Allergens: Gluten, Soya, Celery, Mustard, Sulphites
+Tags: Hot
+
+- Caesar Southern Fried Chicken Wrap | £4.90
+Description: Croutons, gem lettuce and Parmesan.
+Allergens: Gluten, Barley, Soya, Egg, Celery, Milk, Mustard, Sulphites
+
+- Tuna Mayo & Cucumber Baguette | £4.90
+Allergens: Gluten, Milk, Mustard, Fish, Egg
+
+## From the Kitchen
+Available from 11:30am to 3pm, Monday to Friday. Eat at our tables or take away.
+
+- 3 Egg Omelette & Chips | £4.50
+Add-on: Chicken / sausage / ham / bacon / cheese | +£1.50 each
+Add-on: Onion / roasted vegetables / mushroom / tomato | +£1.00 each
+Note: Allergens TBC
+
+- Baked Jacket Potato | £2.80
+Description: Served with a dressed salad.
+Add-on: Tuna mayo / cheese | +£1.50 each
+Add-on: Beans / slaw | +£1.00 each
+Allergens: Milk
+
+- Soup of the Day | £3.90
+Description: Served with freshly baked bread.
+Note: Please ask your server regarding allergens.
+Tags: Vegan
+
+- Fresh Salad & Savoury Tart of the Day
+Option: Savoury Tart | £4.25
+Option: Salad | £4.95
+Option: Tart & Salad | £8.00
+Note: Allergens TBC
+
+- Ploughman’s Lunch | £9.50
+Description: Baguette, ham terrine, Cheddar, blue cheese, pickles, semi-dried tomatoes and mixed leaf salad.
+Allergens: Milk, Mustard, Gluten, Sulphites, Soya, Nuts
+
+
+# Desserts
+Title: Desserts @ BR6
+Hours: 11:30AM — 3PM · MONDAY — FRIDAY
+Intro: Available to enjoy at our tables or to Grab & Go.
+
+- Lemon Tart | £4.90
+Allergens: Gluten, Milk, Egg, Sulphites
+
+- Belgian Chocolate Cheesecake | £4.90
+Allergens: Gluten, Milk, Egg, Nuts, Soya
+
+- Sticky Toffee Pudding | £4.90
+Description: Toffee sauce and vanilla ice cream.
+Allergens: Gluten, Milk, Egg, Sulphites
+
+- Apple Crumble & Custard | £4.90
+Allergens: Gluten, Milk, Egg, Sulphites
+
+- Fruit Salad | £4.90
+
+- Charcuterie of Cheese | £6.90
+Allergens: Gluten, Milk, Sulphites
+
+- Fruity Sorbets or Ice Creams | £4.90
+Description: Please ask your server for today's selection.
+Allergens: Gluten, Milk, Egg, Soya, Peanuts, Nuts
+Note: May contain the listed allergens depending on today's selection.
