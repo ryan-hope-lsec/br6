@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -53,6 +54,7 @@
       class="br6-menu-tab"
       type="button"
       data-menu="lunch"
+      hidden
       aria-selected="false"
     >
       Lunch
@@ -62,6 +64,7 @@
       class="br6-menu-tab"
       type="button"
       data-menu="desserts"
+      hidden
       aria-selected="false"
     >
       Desserts
@@ -71,9 +74,19 @@
       class="br6-menu-tab"
       type="button"
       data-menu="sides"
+      hidden
       aria-selected="false"
     >
       Sides
+    </button>
+
+    <button
+      class="br6-menu-tab"
+      type="button"
+      data-menu="prixfix"
+      aria-selected="false"
+    >
+      Prix Fixe
     </button>
 
   </nav>
@@ -208,6 +221,7 @@
 
 #br6-menu {
 
+  --br6-accent: #EC6728;
   --br6-text: #191919;
   --br6-muted: #686868;
   --br6-line: rgba(25, 25, 25, 0.16);
@@ -423,7 +437,7 @@
 #br6-menu .br6-menu-tab:hover,
 #br6-menu .br6-menu-tab.is-active {
 
-  background: var(--br6-text);
+  background: var(--br6-accent);
 
   color: #ffffff;
 
@@ -566,7 +580,7 @@
 
 #br6-menu .br6-filter-option input:checked + span {
 
-  background: var(--br6-text);
+  background: var(--br6-accent);
 
   color: #ffffff;
 
@@ -1076,6 +1090,35 @@
 }
 
 
+#br6-menu .br6-menu-tab[hidden] {
+  display: none;
+}
+
+#br6-menu .br6-booking {
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+#br6-menu .br6-booking-button {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 999px;
+  background: var(--br6-accent);
+  color: #ffffff;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#br6-menu .br6-booking-button:hover {
+  text-decoration: underline;
+}
+
+#br6-menu .br6-booking-button:focus-visible {
+  outline: 2px solid var(--br6-text);
+  outline-offset: 4px;
+}
+
 /* ==================================================
    FOOTER
 ================================================== */
@@ -1183,7 +1226,134 @@
      MENU DATA
   =================================================== */
 
+  // Keep temporarily unavailable menu data intact for later restoration.
+  var hiddenMenus = ["lunch", "desserts", "sides"];
+
   var menus = {
+
+    prixfix: {
+      "title": "Prix Fixe Menu",
+      "intro": "2 courses £19.50 · 3 courses £22.50",
+      "entries": [
+        {
+          "type": "category",
+          "title": "Starters"
+        },
+        {
+          "type": "item",
+          "name": "Smoked Salmon",
+          "description": "Cucumber, crème fraiche, melba toast, mixed leaf.",
+          "allergens": [
+            "fish",
+            "milk",
+            "gluten"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Ham Hock Terrine",
+          "description": "Red onion jam, pickled veg, sour dough bread, honey mustard dressing.",
+          "allergens": [
+            "gluten",
+            "mustard",
+            "sulphites"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Tomato & Mozzarella Salad",
+          "description": "Balsamic dressing.",
+          "allergens": [
+            "milk",
+            "sulphites"
+          ],
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "type": "category",
+          "title": "Mains"
+        },
+        {
+          "type": "item",
+          "name": "Roasted Chicken Supreme",
+          "description": "Creamed leeks, mash.",
+          "allergens": [
+            "milk"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Traditional Fish & Chips",
+          "description": "Sauce tartare, mushy peas.",
+          "allergens": [
+            "fish",
+            "milk",
+            "gluten",
+            "sulphites",
+            "egg"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Braised Beef",
+          "description": "Seasonal veg, mash, red wine jus.",
+          "allergens": [
+            "milk",
+            "sulphites"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Vegetable Curry",
+          "description": "Basmati, poppadum, mango chutney.",
+          "allergens": [
+            "nuts",
+            "gluten",
+            "sulphites",
+            "soya"
+          ],
+          "tags": [
+            "Vegetarian"
+          ]
+        },
+        {
+          "type": "category",
+          "title": "Desserts"
+        },
+        {
+          "type": "item",
+          "name": "Tart Tatin",
+          "description": "Vanilla ice cream.",
+          "allergenNote": "Allergen details not listed. Please speak with Peter or Lucy before ordering."
+        },
+        {
+          "type": "item",
+          "name": "Authentic Tiramisu",
+          "description": "Berry compote.",
+          "allergens": [
+            "fish",
+            "milk",
+            "gluten",
+            "sulphites",
+            "egg"
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Lite & Dark Chocolate Mousse",
+          "allergens": [
+            "milk"
+          ]
+        },
+        {
+          "type": "category",
+          "title": "Dining Information",
+          "text": "All products sold, supplied or provided by us have allergy information. If you do not find the specific details you require, please speak with Peter or Lucy before consumption. We do not add a service charge to your bill. Guests are invited to offer a tip in cash or by card at their discretion. Thank you."
+        }
+      ]
+    },
 
 
     /* ===============================================
@@ -2398,8 +2568,12 @@
      RENDER COMPLETE MENU
   =================================================== */
 
-  Object.keys(menus).forEach(
+  ["breakfast", "prixfix", "lunch", "desserts", "sides"].forEach(
     function (menuName, menuIndex) {
+
+      if (hiddenMenus.indexOf(menuName) !== -1) {
+        return;
+      }
 
       var menu =
         menus[menuName];
@@ -2487,11 +2661,17 @@
       );
 
 
+      if (menu.entries.length) {
       html +=
         '<div class="br6-no-results">' +
           "No dishes match your current allergen filters." +
         "</div>";
 
+
+      }
+
+      var bookingAnchor = menuName === "breakfast" ? "breakfast" : "prixfix";
+      html += '<div class="br6-booking"><a class="br6-booking-button" href="https://br6restaurant.co.uk/reservations#' + bookingAnchor + '">Book a table</a></div>';
 
       panel.innerHTML =
         html;
